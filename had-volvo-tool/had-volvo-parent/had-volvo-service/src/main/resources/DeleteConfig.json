@@ -1,0 +1,24 @@
+{
+	"DELETE_TABLES":[
+		"ROAD_LINK_INTERSECTION"
+	],
+	"DELETE_COLUMNS":[
+		{
+			"ROAD_LINK": [
+				"Intersection",
+				"Roundabout"
+			],
+			"ROAD_LANE": [
+				"IntersectionFlag",
+				"TramCross",
+				"RailwayCross",
+				"TramPart"
+			],
+			"HAD_OBJECT": [
+				"TransitType",
+				"TransitMarking",
+				"StoppingType"
+			]
+		}
+	]
+}
